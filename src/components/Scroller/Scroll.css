@@ -1,0 +1,42 @@
+.scroll-container {
+    overflow: hidden;
+  }
+  
+  .logos {
+    display: flex;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .logos-slide {
+    display: flex;
+    gap: 3em;
+  }
+  
+  .logo-item {
+    width: 190px; /* Set the width as needed for larger screens */
+    height: 200px; /* Set the height as needed for larger screens */
+  }
+  
+  @media (max-width: 210px) {
+    .logo-item {
+      width: 100%; /* Make the logo full width for smaller screens */
+      height: auto; /* Allow the height to adjust automatically */
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @media (max-width:1440){
+    .logo-item{
+        width: 700px;
+        height: 300px;
+    }
+  }
+  
