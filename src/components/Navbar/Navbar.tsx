@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="h-full w-full">
+    <section className="h-full w-full px-6  lg:px-20 py-6 space-y-6 2xl:px-48">
       <nav>
         <div className="flex justify-between items-center md:flex-row-reverse">
           <div className="flex pt-3 font-semibold 2xl:pr-12">

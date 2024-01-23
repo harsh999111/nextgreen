@@ -2,7 +2,7 @@ import React from 'react';
 
 const Integrate = () => {
   return (
-    <section className='h-full w-full pb-10'>
+    <section className='h-full w-full pb-10 px-6  lg:px-20 py-6 space-y-6 2xl:px-48'>
       <div>
         <div>
           <h1 className="md:pr-44 md:text-5xl 2xl:text-center 2xl:pr-0 lg:pl-10">Integrate our software seamlessly into your workflow</h1>

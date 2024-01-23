@@ -6,8 +6,8 @@ import { RiMoneyDollarBoxFill } from "react-icons/ri";
 
 const Transform = () => {
   return (
-    <section className="pt-8 h-full w-full">
-      <div className="lg:grid lg:grid-cols-2 lg:space-x-10 2xl:space-x-64">
+    <section className="pt-8 h-full w-full px-6  lg:px-20 py-6 space-y-6 2xl:px-48">
+      <div className="lg:grid lg:grid-cols-2 2xl:grid-cols-[1fr,700px] lg:space-x-10 2xl:space-x-20 ">
 
         <div className="2xl:pl-16 lg:pl-10">
         <div>
@@ -72,7 +72,7 @@ const Transform = () => {
 
 
         <div className="hidden lg:block">
-            <Image src={Transform1} alt="transform1 " className="grid h-[600px] rounded-2xl w-96"/>
+            <Image src={Transform1} alt="transform1 " className="grid h-[600px] rounded-2xl w-96 2xl:w-[600px]"/>
         </div>
       </div>
     </section>

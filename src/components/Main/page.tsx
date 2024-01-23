@@ -5,7 +5,7 @@ import Green from "../../../public/Image/nature.webp";
 
 const Main = () => {
   return (
-    <section>
+    <section className="px-6  lg:px-20 py-6 space-y-6 2xl:px-48">
       <div className="pt-24 md:px-6 2xl:px-20 2xl:gap-4">
 
         <div className="md:grid md:grid-cols-2 gap-2 2xl:gap-4  ">

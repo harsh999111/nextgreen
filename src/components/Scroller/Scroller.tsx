@@ -22,7 +22,9 @@ const logos = [Logo, Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo8,Logo9,Logo1
 
 const Scroller = () => {
   return (
-    <div className="scroll-container h-full w-full">
+    <section className='h-full w-full 2xl:px-60 px-2 md:px-4 lg:px-24'>
+
+    <div className="scroll-container h-full w-full px-6  lg:px-20 py-6 space-y-6  2xl:px-48">
         <div className='pt-24 text-center text-base text-gray-500'>
             <h2>
             Trusted by industry leaders
@@ -31,6 +33,8 @@ const Scroller = () => {
       <div className="logos pt-16">
 
         <div className="logos-slide">
+       
+          
           {logos.map((logo, index) => (
             <div key={index} className="logo-item ">
               <Image
@@ -44,6 +48,7 @@ const Scroller = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

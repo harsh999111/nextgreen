@@ -34,10 +34,10 @@ const integrationData = [
 
 const Integration = () => {
   return (
-    <section className='h-full w-full lg:grid lg:grid-cols-3 lg:space-x-6 '>
+    <section className='h-full w-full lg:grid lg:grid-cols-3 lg:space-x-6 grid justify-center px-6  lg: lg:px-20 py-6 space-y-6 2xl:px-48 '>
       {integrationData.map((integration) => (
         <div key={integration.id} className='pb-10 md:grid md:grid-cols-2 md:space-x-20 lg:grid lg:grid-cols-1'>
-          <div className='lg:flex lg:flex-col lg:items-center lg:justify-center'>
+          <div className='lg:flex lg:flex-col lg:items-center lg:justify-center md:pt-10 '>
             <div className='text-green-900 text-2xl 2xl:text-3xl '>
               {integration.icon}
             </div>
@@ -49,7 +49,7 @@ const Integration = () => {
             </div>
           </div>
           <div className='pt-6 lg:flex lg:items-center lg:justify-center'>
-            <Image src={integration.image} alt='parson' className='md:h-64 w-64 lg:h-64 lg:w-80 lg:grid lg:mr-7 2xl:h-80 2xl:w-[400px]' />
+            <Image src={integration.image} alt='parson' className=' w-full lg:h-64 lg:w-96 cursor-pointer lg:grid lg:mr-7 2xl:h-80 2xl:w-[400px] ' />
           </div>
         </div>
       ))}
